@@ -1,0 +1,42 @@
+header {
+    /* border: 0.1rem solid red; */
+    height: 2rem;
+    background-color: #252523;
+    color: #eee;
+    display: flex;
+    /* justify-content: center; */
+    align-content: center;
+    align-items: center;
+    padding: .7rem;
+}
+
+.titulo {
+    flex: 1; /*expande "ocupa 100% do espaço disponível*/
+    /* border: .1rem solid white; */
+}
+
+.menu-hamburguer {
+    /* border: .1rem solid red; */
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
+    padding: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #464646;
+}
+
+.menu-hamburguer i {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+.menu-hamburguer:hover i { /*hover = quando o mouse passa por cima*/
+    color: #eee;
+}
+
+.menu-hamburguer i:hover {
+    color: white;
+}

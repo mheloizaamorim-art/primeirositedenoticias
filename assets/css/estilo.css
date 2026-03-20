@@ -1,4 +1,5 @@
 @import url("cartao.css");
+@import url("cabecalho.css");
 
 * {
     font-family: "Segoe UI", Arial, sans-serif;
@@ -13,17 +14,6 @@ body {
     flex-direction: column;
 }
 
-header {
-    /* border: 0.1rem solid red; */
-    height: 2rem;
-    background-color: #252523;
-    color: #eee;
-    display: flex;
-    /* justify-content: center; */
-    align-content: center;
-    align-items: center;
-    padding: .5rem;
-}
 
 section {
     /* border: .1rem solid blue; */
@@ -54,4 +44,20 @@ footer {
     align-content: center;
     align-items: center;
     padding: .5rem;
+}
+.logo {
+    border: .1rem blue solid; /*borda*/
+    background-color: blue; /*cor de fundo*/
+    width: 1rem;
+    height: 1rem;
+    color: #eee;
+    font-weight: bold; /*fonte em negrito*/
+    border-radius: 100%;
+    padding: .7rem; /*afasta o conteúdo da borda*/
+    display: flex; /*caixas flexivéis*/
+    justify-content: center; /*centro do eixo x*/
+    align-items: center; /*centro do eixo y*/ /*alinhamento dos itens dentro de cada caixa*/
+    align-content: center; /*centro do eixo y*/
+    margin-right: .7rem; /*margem da direita*/
+
 }
