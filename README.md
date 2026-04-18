@@ -12,7 +12,6 @@ O foco principal foi a construção de uma interface limpa e funcional utilizand
 * HTML5 - Estruturação semântica e acessível.
 * CSS3 - Layout Flexbox e modularização via @import.
 * Font Awesome - Biblioteca de ícones para navegação e UI.
-* Google Fonts - Tipografia selecionada para conforto visual.
 
 ## 🎨 Organização de Código
 O projeto segue uma arquitetura modular para facilitar a manutenção, dividindo os estilos por componentes:
