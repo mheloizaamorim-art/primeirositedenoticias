@@ -8,13 +8,13 @@ O foco principal foi a construção de uma interface limpa e funcional utilizand
 - Leitura Otimizada: Layout focado na legibilidade, com distinção clara entre categorias, datas e autores.
 - Header Funcional: Cabeçalho com logotipo personalizado e botão de menu (hambúrguer) para futuras expansões.
 
-# 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 * HTML5 - Estruturação semântica e acessível.
 * CSS3 - Layout Flexbox e modularização via @import.
 * Font Awesome - Biblioteca de ícones para navegação e UI.
 * Google Fonts - Tipografia selecionada para conforto visual.
 
-# 🎨 Organização de Código
+## 🎨 Organização de Código
 O projeto segue uma arquitetura modular para facilitar a manutenção, dividindo os estilos por componentes:
 * cabecalho.css - Estilos do topo e logo.
 * menulateral.css - Comportamento do menu de navegação.
