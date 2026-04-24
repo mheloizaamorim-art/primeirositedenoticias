@@ -33,5 +33,20 @@ li{
 }
 
 .opcao:hover .icone-final {
-    opacity: 1;
+    opacity: 1; /* eu vejo o elemento, ele não é translúcido */
+}
+
+.icone-inicial {
+    width: 1.5rem;
+}
+
+.rotulo{
+    flex: 1;
+}
+
+.icone-final{
+    width: 1rem;
+    text-align: right;
+    opacity: 0;
+    transition: opacity 0.3s ease-in; /* tipo de transição para sumir a setinha */
 }
