@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -74,9 +74,4 @@ button:hover {
 .register-link {
     margin-top: 20px;
     font-size: 0.9em;
-}
-
-/* PERGUNTAR AO WESLEY
-- Como eu posso colocar os icons dentro das caixas de imput?
-- Como eu posso fazer com que a checkbox de lembrar senha funcione? 
-*/
+} */
