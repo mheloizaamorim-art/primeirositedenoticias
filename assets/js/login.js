@@ -1,5 +1,7 @@
-const email = "admin@exemplo.com"; // mock ou mockup: inserção de dados fictícios
-const senha = "1234";
+import {usuario} from "./bd"; // essa linha foi escrita para substituir as duas abaixo de dados.
+
+// const email = "admin@exemplo.com"; // mock ou mockup: inserção de dados fictícios
+// const senha = "1234";
 
 function verificarCredenciais(){
     const emailInformado = document.getElementById("email").value;
@@ -17,3 +19,11 @@ function verificarCredenciais(){
     else
         alert("E-mail informado incorretamente!");
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    const botao = document.querySelector("button");
+    botao.addEventListener("click", (e) => {
+        e.preventDefault();
+        verificarCredenciais();
+    });
+});
